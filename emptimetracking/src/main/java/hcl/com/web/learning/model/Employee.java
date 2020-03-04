@@ -1,7 +1,5 @@
 package hcl.com.web.learning.model;
 
-import java.util.Date;
-
 public class Employee  {
 	
 	private Long id;
@@ -10,11 +8,11 @@ public class Employee  {
 	
 	private String lastName;
 	
-	private String email;
+	private String designation;
 	
-	private Date swipeinTime;
+	private String location;
 	
-	private Date swipeoutTime;
+	
 
 	public Employee() {
 	}
@@ -43,33 +41,31 @@ public class Employee  {
 		this.lastName = lastName;
 	}
 
-	public String getEmail() {
-		return email;
+	public String getDesignation() {
+		return designation;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public void setDesignation(String designation) {
+		this.designation = designation;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
 	}
 
 	@Override
 	public String toString() {
-		return "EmployeeVO [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
-				+ "]";
+		return "Employee [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", designation="
+				+ designation + ", location=" + location + "]";
 	}
 
-	public Date getSwipeinTime() {
-		return swipeinTime;
-	}
+	
 
-	public void setSwipeinTime(Date swipeinTime) {
-		this.swipeinTime = swipeinTime;
-	}
+	
 
-	public Date getSwipeoutTime() {
-		return swipeoutTime;
-	}
-
-	public void setSwipeoutTime(Date swipeoutTime) {
-		this.swipeoutTime = swipeoutTime;
-	}
+	
 }
