@@ -1,0 +1,37 @@
+.headerClass {
+	background-color:blue;
+}
+.box {
+	width:280px;
+	height:200px;
+	margin:30px 30px 30px;
+	float:left;	
+	background-color:#3C65A3;
+	text-align:center;
+	color:white;
+	font-size:90px;
+	padding-top:30px;
+}
+
+.menu {
+	height:70px;
+	padding:20px 20px 20px;
+}
+
+.footer{
+	background-color:#3C65A3;
+	height:40px;
+	text-align:center;
+	color:white;
+}
+.leftmenu{
+	background-color:#6185B7;
+	width:20%;
+	text-align:top;	
+}
+
+h2{
+	color:white;
+	
+	text-align:top;
+}
